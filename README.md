@@ -1,4 +1,4 @@
-# Projeto Tech - Divulgação GDG
+<h1 align="center">Projeto Tech - Divulgação GDG</h1>
 
 ## Descrição do projeto
 
