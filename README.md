@@ -43,7 +43,7 @@ As tags de estilização usadas foram:
 ### Linguagens de programação
 
 ``HTML5``  
-``CSS3``
+``CSS3``  
 ``Java Script``
 
 # Autores
