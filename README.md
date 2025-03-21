@@ -2,49 +2,26 @@
 
 ## Descrição do projeto
 
-WEB site feito para divulgação de um evento da GDG em Londrina feito em HTML5, CSS3 e Java Script
+### Objetivo Geral:
 
-## Cabeçalho - Header 
+Desenvolver um site intuitivo e responsivo com a finalidade de divulgar e promover eventos, proporcionando um acesso facilitado às informações relevantes para o público e uma experiência dinâmica para os participantes.
 
-Criado uma &lt;class&gt; dentro de uma &lt;div&gt; para estilização do cabeçalho da pagina.  
-Nesta &lt;div&gt; contém as informações como nome, e-mail, telefone, linkedin e github.
+### Objetivos Específicos:
+- Criar uma plataforma de fácil navegação, permitindo que os organizadores do evento publiquem e editem de forma simples os detalhes sobre o evento, como data, local, descrição e programação.
+- Implementar uma área de feedback, onde os participantes possam avaliar os eventos, compartilhar suas experiências e sugestões.
+- Desenvolver uma galeria de fotos e vídeos, permitindo que os organizadores e palestrantes compartilhem imagens e momentos marcantes do evento.
+- Incluir um formulário com validação de e-mail e campos obrigatórios, garantindo uma comunicação eficiente e sem erros de cadastro.
+- Garantir a compatibilidade do site com dispositivos móveis, proporcionando uma experiência de navegação fluída e responsiva em smartphones e tablets.
+- Adicionar um mapa interativo com a localização exata do evento, facilitando o acesso e a chegada dos participantes.
 
-## Seções - Section
-
-Abaixo foi criado 4 seções &lt;section&gt; contendo:  
-- Sobre mim;  
-- Experiência profissional;  
-- Formações acadêmicas;  
-- Habilidades.
-
-## Rodapé - Footer
-
-E para o rodapé da pagina foi criado um &lt;footer&gt; contendo o simbolo de copyright (&copy;) e direitos autorais.
-
-## Estilização com CSS3
-
-As tags de estilização usadas foram:
-- margin: Altera a margem da pagina;
-- padding: Espaçamento entre o conteudo e a borda;
-- font-family: Altera a fonte da escrita;
-- background-color: Altera a cor de fundo da pagina;
-- color: Altera a cor do texto;
-- text-align: Alinhamento de texto;
-- display:flex: Alteração de organização em blocos;
-- align-items: Alinhamento dos conteudos;
-- justify-content: 
-- flex-direction: 
-- width: Largura da imagem;
-- height: Altura da imagem;
-- border-radius: Arredonda a borda da imagem;
-- border: Inclui borda na imagem;
-- box-shadow: Caixa com sombreamento;
+### Mapa mental do projeto
+<img src="mapa_mental.png">
 
 ### Linguagens de programação
 
-``HTML5``  
-``CSS3``  
-``Java Script``
+``HTML5``: Será utilizado para a estruturação do conteúdo do site, criando as páginas e organizando as informações de forma semântica e acessível. O HTML proporcionará a base do site, garantindo que todos os elementos sejam corretamente dispostos.  
+``CSS3``: Responsável pela estilização e layout do site. Utilizaremos o CSS para definir a aparência visual, como cores, fontes, espaçamento e responsividade, garantindo que o site tenha um design atraente e adaptável a diferentes tamanhos de tela.  
+``Java Script``: Será utilizado para adicionar interatividade ao site, implementando funcionalidades como validação de formulários, animações, controle de navegação e outros recursos dinâmicos. O JavaScript também permitirá melhorar a experiência do usuário, tornando o site mais interativo e fluido.
 
 # Autores
 
