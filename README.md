@@ -48,6 +48,6 @@ As tags de estilização usadas foram:
 
 # Autores
 
-[<img src="perfil.jpg" width=130><br><sub>Guilherme Henrique Silva</sub>](https://github.com/Guilherme-Henr-Silva)
-[<img src="Deivid.jpg" width=130><br><sub>Deivid Aparecido Galindo Oliveira</sub>](https://github.com/DeividGalindo)
+[<img src="perfil.jpg" width=130><br><sub>Guilherme Henrique Silva</sub>](https://github.com/Guilherme-Henr-Silva)  
+[<img src="Deivid.jpg" width=130><br><sub>Deivid Aparecido Galindo Oliveira</sub>](https://github.com/DeividGalindo)  
 [<img src="Miguel.jpg" width=130><br><sub>Miguel Joaquim Marques Clemente Souza</sub>](https://github.com/Miguel537)
