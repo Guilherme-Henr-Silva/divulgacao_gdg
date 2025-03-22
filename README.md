@@ -17,6 +17,9 @@ Desenvolver um site intuitivo e responsivo com a finalidade de divulgar e promov
 ### Mapa mental do projeto
 <img src="mapa_mental.png">
 
+### Wireframe do projeto
+<img src="wireframe.png">
+
 ### Linguagens de programação
 
 ``HTML5``: Será utilizado para a estruturação do conteúdo do site, criando as páginas e organizando as informações de forma semântica e acessível. O HTML proporcionará a base do site, garantindo que todos os elementos sejam corretamente dispostos.  
