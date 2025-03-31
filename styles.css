@@ -1,0 +1,96 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'barlow', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    color: #ffffff;
+    text-align: center;
+}
+
+header {
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+}
+
+.header-info {
+    text-align: center; 
+    flex-grow: 1; 
+}
+
+.button-container {
+    display: flex; 
+    align-items: center; 
+    margin-left: 20px; 
+}
+
+.btn {
+    display: inline-block;
+    margin: 5px; 
+    padding: 10px 20px;
+    background: #e94560; 
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #5f0d26; 
+    transform: scale(1.1);
+}
+
+.inscricao-container {
+    text-align: left; 
+    margin-top: 10px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+}
+
+.inscricao-container form {
+    display: flex;
+    flex-direction: column;
+    width: 200px; 
+}
+
+.inscricao-container input {
+    margin-bottom: 2px; 
+    padding: 2px;
+}
+
+section {
+    padding: 50px 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideUp 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

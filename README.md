@@ -15,10 +15,10 @@ Desenvolver um site intuitivo e responsivo com a finalidade de divulgar e promov
 - Adicionar um mapa interativo com a localização exata do evento, facilitando o acesso e a chegada dos participantes.
 
 ### Mapa mental do projeto
-<img src="mapa_mental.png">
+<img src="Imagens/mapa_mental.png">
 
 ### Wireframe do projeto
-<img src="wireframe.png">
+<img src="Imagens/wireframe.png">
 
 ### Linguagens de programação
 
@@ -28,5 +28,5 @@ Desenvolver um site intuitivo e responsivo com a finalidade de divulgar e promov
 
 # Autores
 
-[<img src="perfil.jpg" width=95><br><sub>Guilherme Henrique <br>Silva</sub>](https://github.com/Guilherme-Henr-Silva) |  [<img src="Deivid.jpg" width=95><br><sub>Deivid Aparecido <br>Galindo Oliveira</sub>](https://github.com/DeividGalindo) | [<img src="Miguel.jpg" width=95><br><sub>Miguel Joaquim Marques <br>Clemente Souza</sub>](https://github.com/Miguel537)
+[<img src="Imagens/perfil.jpg" width=95><br><sub>Guilherme Henrique <br>Silva</sub>](https://github.com/Guilherme-Henr-Silva) |  [<img src="Imagens/Deivid.jpg" width=95><br><sub>Deivid Aparecido <br>Galindo Oliveira</sub>](https://github.com/DeividGalindo) | [<img src="Imagens/Miguel.jpg" width=95><br><sub>Miguel Joaquim Marques <br>Clemente Souza</sub>](https://github.com/Miguel537)
 | :---: | :---: | :---: |
