@@ -1,69 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GDG - Londrina</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Palestrantes - GDG Londrina</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-    <header>
-        <div class="header-content">
-            <div class="header-info">
-                <img src="Imagens/gdg_icon.png" alt="" class="gdg_icone">
-                <h1>GDG - Londrina</h1>
-                <p>Grupo de Desenvolvedores(as) Google de Londrina!</p>
+    <header class="navbar">
+        <nav>
+            <div class="logo">
+                <img src="Imagens/gdg_icon.png" alt="GDG Logo" />
             </div>
-            <div class="button-container">
-                <a href="index.html" class="btn">Inicio</a>
-                <a href="galeria.html" class="btn">Galeria</a>
-                <a href="palestrantes.html" class="btn">Palestrantes</a>
-            </div>
-        </div>
-        <div class="inscricao-container">
-            <h2>Inscrição</h2>
-            <form id="form">
-                <input type="text" id="nome" placeholder="Seu Nome" required>
-                <input type="email" id="email" placeholder="Seu Email" required>
-                <button type="submit" class="botao-inscrever">Inscrever-se</button>
-            </form>
-            <p id="mensagem"></p>
-        </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="palestrantes.html">Palestrantes</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <section id="programacao">
-        <h2>Programação</h2>
-        <br>
-        <ul>
-            <img src="Imagens/perfil.jpg" width=95><br><sub>Guilherme Henrique Silva</sub>
-            <br>
-            <br>
-            <li><strong>TEMA: </strong>Inteligencia Artificial e sua importancia <br> para tecnologia</li>
-            <br>
-            <img src="Imagens/Miguel.jpg" width=95><br><sub>Miguel Joaquim Marques <br>Clemente Silva</sub>
-            <br>
-            <br>
-            <li><strong>TEMA: </strong>Casos locais de sucesso</li>
-            <br>
-            <img src="Imagens/Deivid.jpg" width=95><br><sub>Deivid Aparecido <br>Galindo Oliveira</sub>
-            <br>
-            <br>
-            <li><strong>TEMA: </strong>Analise e desenvolvimento de sistemas</li>
-        </ul>
-    </section>
-    
-    <h2>Midias Sociais</h2>
-    <div class="contato">
-        <a href="https://www.instagram.com/gdglondrina/" target="_blank" class="btn"><img src="Imagens/instagram_icon.png" alt=""></a>
-        <a href="https://chat.whatsapp.com/GVZ5UFI6ZjBE6dVDwNcoSF" target="_blank" class="btn"><img src="Imagens/whatsapp_icon.png" alt=""></a>
-    </div>
-    
-    <footer>
-        <p>© 2025 GDG - Londrina. Todos os direitos reservados.</p>
-    </footer>
-    
-    <script src="script.js"></script>
+
+    <section class="pagina-palestrantes">
+        <h1>Conheça nossos Palestrantes</h1>
+        <div class="palestrantes-grid">
+            <div class="palestrante-card">
+                <img src="Imagens/perfil.jpg" alt="Guilherme Henrique Silva" />
+                <h3>Guilherme Henrique Silva</h3>
+                <p>Especialista em Inteligência Artificial, atua há mais de 8 anos no setor de tecnologia criando soluções inteligentes para empresas. Apaixonado por aprendizado de máquina e ética na IA.</p>
+            </div>
+            <div class="palestrante-card">
+                <img src="Imagens/Miguel.jpg" alt="Lucas Fernandes" />
+                <h3>Lucas Fernandes</h3>
+                <p>Desenvolvedor full stack com foco em tecnologias web modernas. Trabalha com React, Node.js e bancos de dados em nuvem. É também entusiasta de open source e comunidades tech.</p>
+            </div>
+            <div class="palestrante-card">
+                <img src="Imagens/Deivid.jpg" alt="Maria Clara Souza" />
+                <h3>Maria Clara Souza</h3>
+                <p>Engenheira de software com experiência em arquitetura de microsserviços e DevOps. Atua liderando times ágeis e promovendo práticas de entrega contínua em larga escala.</p>
+            </div>
+            <div class="palestrante-card">
+                <img src="Imagens/perfil.jpg" alt="Ana Paula Ribeiro" />
+                <h3>Ana Paula Ribeiro</h3>
+                <p>UX/UI designer com um olhar apurado para acessibilidade digital. Desenvolve experiências centradas no usuário, combinando design, psicologia e dados.</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

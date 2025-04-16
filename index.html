@@ -4,78 +4,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GDG - Londrina</title>
+    <title>GDG Londrina</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
 </head>
 
 <body>
+    <!-- NAVBAR -->
     <header>
-        <div class="header-content">
-            <div class="header-info">
-                <img src="Imagens/gdg_icon.png" alt="" class="gdg_icone">
-                <h1>GDG - Londrina</h1>
-                <p>Grupo de Desenvolvedores(as) Google de Londrina!</p>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="Imagens/gdg_icon.png" alt="Logo GDG" />
             </div>
-            <div class="button-container">
-                <a href="index.html" class="btn">Inicio</a>
-                <a href="galeria.html" class="btn">Galeria</a>
-                <a href="palestrantes.html" class="btn">Palestrantes</a>
-            </div>
-        </div>
-        <div class="inscricao-container">
-            <h2>Inscrição</h2>
-            <form id="form">
-                <input type="text" id="nome" placeholder="Seu Nome" required>
-                <input type="email" id="email" placeholder="Seu Email" required>
-                <button type="submit" class="botao-inscrever">Inscrever-se</button>
-            </form>
-            <p id="mensagem"></p>
-        </div>
+
+            <div class="navbar-title">GDG - Londrina</div>
+
+            <ul class="navbar-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+            </ul>
+        </nav>
+
     </header>
 
-    <section id="sobre">
-        <h2>Sobre o Evento</h2>
-        <br>
-        <p>O GDG Londrina é um evento de tecnologia promovido pela comunidade Google Developer Group da cidade de
-            Londrina. Com palestras, workshops e muito networking, o evento reúne estudantes, profissionais e
-            entusiastas para compartilhar conhecimento sobre desenvolvimento, inovação e tendências do universo tech.
-            Uma oportunidade única para aprender, se conectar e crescer na área de tecnologia!</p>
+    <section id="gdg_base" class="section-content">
+        <h1 class="titulo">Google Developer Groups</h1>
+            <a href="#" class="inscricao-btn">INSCREVA-SE</a>
     </section>
 
-    <section id="programacao">
-        <h2>Programação</h2>
-        <br>
-        <ul>
-            <li><strong>20:00 - Inteligencia Artificial e sua importancia
-                para tecnologia</strong> - Guilherme Henrique Silva</li>
-            <li><strong>21:00 - Casos locais de sucesso</strong> - Miguel Joaquim Marques</li>
-            <li><strong>22:00 - Analise e desenvolvimento de sistemas</strong> - Deivid Aparecido
-                Galindo Oliveira</li>
-        </ul>
+    <!-- SOBRE O GDG -->
+    <section id="sobre-gdg" class="section-content">
+        <h2 class="titulo-secao">O que é o GDG?</h2>
+        <p class="meu-paragrafo">O Google Developer Group (GDG) Londrina é uma comunidade local de desenvolvedores e entusiastas de
+            tecnologia na região de Londrina, Paraná, que se reúne para aprender, compartilhar conhecimento e
+            expandir sua rede de contatos.</p>
+        <p class="meu-paragrafo">O grupo promove encontros regulares que incluem palestras, sessões práticas e oportunidades de networking.
+        </p>
+        <p class="meu-paragrafo">Para se manter atualizado sobre as atividades e eventos futuros do GDG Londrina, você pode acompanhar as
+            redes sociais do grupo.</p>
     </section>
 
+    <!-- ORGANIZADORES -->
+    <section id="organizadores">
+        <h2 style="text-align: center;">Organizadores</h2>
+        <div class="organizadores-grid">
+            <div class="organizador-card">
+                <img src="organizadores/Hemerson Ravaneda.jpeg" alt="Organizador 1">
+                <h3>Hemerson Ravaneda</h3>
+                <p>Organizador</p>
+                <p>Director of Science and Technology, codel.</p>
+                <a href="https://www.linkedin.com/in/hravaneda/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/hemerson.ravaneda/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="organizador-card">
+                <img src="organizadores/Flavio Granero.jpeg" alt="Organizador 2">
+                <h3>Flávio Granero</h3>
+                <p>Organizador</p>
+                <p>VP of Engineering, Eventene.</p>
+                <a href="https://www.linkedin.com/in/flaviogranero/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/flaviogranero/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="organizador-card">
+                <img src="organizadores/Gustavo Cavalcante.jpeg" alt="Organizador 2">
+                <h3>Gustavo Borges</h3>
+                <p>Organizador</p>
+                <p>CEO & CTO, nevoa.co</p>
+                <a href="https://www.linkedin.com/in/gustavo-cavalcante-borges/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/guhs.borges/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="organizador-card">
+                <img src="organizadores/MarlonPascoal.jpeg" alt="Organizador 2">
+                <h3>Marlon Pascoal</h3>
+                <p>Organizador</p>
+                <p>Data Director, Superlógica.</p>
+                <a href="https://www.linkedin.com/in/marlonpascoal/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/marloncpascoal/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="organizador-card">
+                <img src="organizadores/ViniciusCarvalho.jpeg" alt="Organizador 2">
+                <h3>Vinicius Carvalho</h3>
+                <p>Organizador</p>
+                <p>Project Manager, Jobsity</p>
+                <a href="https://www.instagram.com/viniciuscarvalho.me/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/viniciuscarvalho-me/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIA EM CARROSSEL -->
+    <section id="galeria">
+        <h2 style="text-align: center; color: white;">Galeria</h2>
+        <div class="carousel">
+            <button class="carousel-btn" onclick="moveCarousel(-1)">&#10094;</button>
+            <div class="carousel-track" id="carousel-track">
+                <img src="galeria/foto_01.jpg" alt="Imagem 1">
+                <img src="galeria/foto_02.jpg" alt="Imagem 2">
+                <img src="galeria/foto_03.jpg" alt="Imagem 3">
+                <img src="galeria/foto_04.jpg" alt="Imagem 4">
+                <img src="galeria/foto_05.jpg" alt="Imagem 5">
+                <img src="galeria/foto_06.jpg" alt="Imagem 6">
+            </div>
+            <button class="carousel-btn" onclick="moveCarousel(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- LOCALIZAÇÃO -->
     <section id="localizacao">
         <h2>Localização</h2>
-        <br>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.332570700726!2d-51.143334425078706!3d-23.3036893789777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb437a3d1d44af%3A0x9c9f46adfc62d1eb!2sUniCesumar%20-%20Londrina!5e0!3m2!1spt-BR!2sbr!4v1743463021972!5m2!1spt-BR!2sbr"
-            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>O evento será realizado na UniCesumar Londrina.</p>
+        <div class="map-placeholder">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.3325707007234!2d-51.143334424677676!3d-23.303689378977797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb437a3d1d44af%3A0x9c9f46adfc62d1eb!2sUniCesumar%20-%20Londrina!5e0!3m2!1spt-BR!2sbr!4v1744656639669!5m2!1spt-BR!2sbr"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </section>
 
-    <h2>Midias Sociais</h2>
-    <div class="contato">
-        <a href="https://www.instagram.com/gdglondrina/" target="_blank" class="btn"><img
-                src="Imagens/instagram_icon.png" alt=""></a>
-        <a href="https://chat.whatsapp.com/GVZ5UFI6ZjBE6dVDwNcoSF" target="_blank" class="btn"><img
-                src="Imagens/whatsapp_icon.png" alt=""></a>
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="footer-content">
+          <p>&copy; 2025 GDG Londrina. Todos os direitos reservados.</p>
+          <div class="footer-icons">
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://gdg.londrina.dev/" target="_blank"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </footer>
+
+    <!-- POPUP INSCRIÇÃO -->
+    <div id="popup" class="popup hidden">
+        <div class="popup-content">
+            <button class="close-btn" onclick="closePopup()">&times;</button>
+            <h3>Inscreva-se no GDG Londrina</h3>
+            <p>Em breve mais informações sobre as inscrições.</p>
+        </div>
     </div>
-
-    <footer>
-        <p>© 2025 GDG - Londrina. Todos os direitos reservados.</p>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
+<script src="script.js"></script>
 
 </html>
