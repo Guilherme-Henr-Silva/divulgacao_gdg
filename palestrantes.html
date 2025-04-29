@@ -1,49 +1,121 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Palestrantes - GDG Londrina</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDG Londrina</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
 </head>
+
 <body>
-    <header class="navbar">
-        <nav>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
             <div class="logo">
-                <img src="Imagens/gdg_icon.png" alt="GDG Logo" />
+                <img src="Imagens/gdg_icon.png" alt="Logo GDG" />
             </div>
-            <ul class="nav-links">
+
+            <div class="navbar-title">GDG - Londrina</div>
+
+            <ul class="navbar-links">
                 <li><a href="index.html">Início</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="#galeria">Galeria</a></li>
                 <li><a href="palestrantes.html">Palestrantes</a></li>
             </ul>
         </nav>
+
     </header>
 
-    <section class="pagina-palestrantes">
-        <h1>Conheça nossos Palestrantes</h1>
-        <div class="palestrantes-grid">
-            <div class="palestrante-card">
-                <img src="Imagens/perfil.jpg" alt="Guilherme Henrique Silva" />
-                <h3>Guilherme Henrique Silva</h3>
-                <p>Especialista em Inteligência Artificial, atua há mais de 8 anos no setor de tecnologia criando soluções inteligentes para empresas. Apaixonado por aprendizado de máquina e ética na IA.</p>
-            </div>
-            <div class="palestrante-card">
-                <img src="Imagens/Miguel.jpg" alt="Lucas Fernandes" />
-                <h3>Lucas Fernandes</h3>
-                <p>Desenvolvedor full stack com foco em tecnologias web modernas. Trabalha com React, Node.js e bancos de dados em nuvem. É também entusiasta de open source e comunidades tech.</p>
-            </div>
-            <div class="palestrante-card">
-                <img src="Imagens/Deivid.jpg" alt="Maria Clara Souza" />
-                <h3>Maria Clara Souza</h3>
-                <p>Engenheira de software com experiência em arquitetura de microsserviços e DevOps. Atua liderando times ágeis e promovendo práticas de entrega contínua em larga escala.</p>
-            </div>
-            <div class="palestrante-card">
-                <img src="Imagens/perfil.jpg" alt="Ana Paula Ribeiro" />
-                <h3>Ana Paula Ribeiro</h3>
-                <p>UX/UI designer com um olhar apurado para acessibilidade digital. Desenvolve experiências centradas no usuário, combinando design, psicologia e dados.</p>
-            </div>
+    <section id="gdg_base" class="section-contentP">
+        <h1 class="titulo">Palestrantes</h1>
+        <a href="#" class="programacao-btn">Programação</a>
+    </section>
+
+    <!-- SOBRE O GDG -->
+    <div class="cards-container">
+        <div class="card">
+          <img src="palestrantes/DaniloSoares.png" alt="Danilo">
+          <div class="card-text">
+            <p class="card-name">Danilo Soares Frois Cardoso</p>
+            <a href="https://www.linkedin.com/in/danilosoarescardoso/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <p class="card-title">Backstage: Organizando sua infraestrutura</p>
+            <p class="card-subtitle">
+              Com Danilo Soares Frois Cardoso Senior software architect no Banco BV
+            </p>
+            <p class="card-desc">
+              Danilo vai apresentar o Backstage, DevPortal criado pelo Spotify, e mostrar os benefícios de adoção além de mostrar na prática como as integrações com ele funcionam.
+            </p>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="palestrantes/MatheusMuriel" alt="Matheus">
+          <div class="card-text">
+            <p class="card-name">Matheus Muriel</p>
+            <a href="https://www.linkedin.com/in/matheusmuriel/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <p class="card-title">GPUs: dos pixels à inteligência artificial</p>
+            <p class="card-subtitle">
+                Com Matheus Muriel, Programador backend senior na Luiza Labs
+            </p>
+            <p class="card-desc">
+                Descubra como as GPUs evoluíram de simples aceleradores gráficos para os motores por trás das inovações mais disruptivas da computação moderna.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+        
+      </div>
+      
+
+    <!-- LOCALIZAÇÃO -->
+    <section id="localizacaoP">
+        <h2>Localização</h2>
+        <p>O evento será realizado na UniCesumar Londrina.</p>
+        <div class="map-placeholder">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.3325707007234!2d-51.143334424677676!3d-23.303689378977797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb437a3d1d44af%3A0x9c9f46adfc62d1eb!2sUniCesumar%20-%20Londrina!5e0!3m2!1spt-BR!2sbr!4v1744656639669!5m2!1spt-BR!2sbr"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="footer-content">
+          <p>&copy; 2025 GDG Londrina. Todos os direitos reservados.</p>
+          <div class="footer-icons">
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://gdg.londrina.dev/" target="_blank"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </footer>
+
+    <!-- Popup de Inscrição -->
+    <div id="popup-overlay" class="popup-overlay hidden">
+        <div class="popup">
+          <span class="close-btn">&times;</span>
+          <form id="programacao-btn">
+            <h1>Programação:</h1>
+            <p>9h - Coffee + Networking</p>
+            <p>9h30 - Abertura</p>
+            <p>9h45 - Palestra 1 - Backstage: organizando sua infraestrutura, com Danilo Soares Frois Cardoso</p>
+            <p>10h30 - Palestra 2 - GPUs: dos pixels à inteligência artificial, com Matheus Muriel</p>
+            <p>11h15 - Encerramento</p>
+          </form>
+        </div>
+      </div>
+      
+  
+  <!-- Barra de Carregamento -->
+<div id="loading-bar" class="loading-bar"></div>
+
+      
 </body>
+<script src="script.js"></script>
+
 </html>
