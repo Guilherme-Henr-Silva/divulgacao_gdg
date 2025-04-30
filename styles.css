@@ -48,10 +48,12 @@ button:hover {
   text-decoration: none;
 }
 .programacao-btn {
+  cursor: pointer;
   display: inline-block;
   font-size: 30px;
   color: #ffffff;
   background-color: #190b4d;
+  opacity: 80%;
   border: none;
   border-radius: 50px;
   text-decoration: none;
@@ -65,6 +67,27 @@ button:hover {
   font-weight: bold;
   text-decoration: none;
 }
+.programacao {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.programacao h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.programacao ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.programacao li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
 
 .inscricao-btn:hover {
   transform: scale(1.05);
@@ -411,6 +434,28 @@ body {
   width: 100%;
   max-width: 280px;
   margin-bottom: 20px;
+}
+
+.popup-content a {
+  color: #b68cff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.popup-contentP {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #000;
+  opacity: 80%;
+  padding: 30px 20px;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 700px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.popup-contentP h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
 .popup-content a {
