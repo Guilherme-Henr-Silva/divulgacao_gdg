@@ -663,16 +663,6 @@ body {
   color: #e6e6e6;
 }
 
-/* Animação de Fade-In para a frase do GDG */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 /* Botões de Navegação */
 .nav-btn {
   display: inline-block;
@@ -687,5 +677,53 @@ body {
 
 .nav-btn:hover {
   background-color: #357ae8;
+}
+
+/* Splash com GIF */
+.splash-screen {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: url('Imagens/seu-gif.gif') center center no-repeat;
+  background-size: cover;
+  z-index: 9999;
+}
+
+/* Oculta inicialmente os elementos */
+.titulo, .inscricao-btn, .programacao-btn, .navbar {
+  opacity: 0;
+  position: relative;
+}
+
+/* Animações */
+@keyframes slideIn {
+  from {
+    left: -100px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.titulo.ativo {
+  animation: slideIn 2s ease forwards;
+}
+
+.inscricao-btn.ativo {
+  animation: fadeIn 0.7s ease forwards;
+}
+
+.programacao-btn.ativo {
+  animation: fadeIn 0.7s ease forwards;
+}
+.navbar.ativo {
+  animation: fadeIn 1s ease forwards;
 }
 
