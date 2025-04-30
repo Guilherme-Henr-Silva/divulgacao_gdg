@@ -150,6 +150,22 @@ body {
   color: white;
   text-align: center;
 }
+.section-contentE {
+  max-width: 1400px;
+  margin: 100px auto;
+  padding: 40px 20px;
+  line-height: 1.8;
+  height: 150vh;
+}
+
+.section-contentE h1{
+  height: 30vh;
+  padding-top: 10rem;
+  flex-direction: column;
+  background: none;
+  color: white;
+  text-align: center;
+}
 
 .titulo{
   font-size: 3.6rem;
@@ -175,6 +191,7 @@ body {
 
 /* NAVBAR */
 * {
+  font-family: 'Orbitron', sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -318,14 +335,6 @@ body {
 .organizer-social a:hover {
   color: #666;
 }
-.evento-card {
-  background: #050113;
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 600px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
 #galeria h2{
     font-size: 2.8rem;
     font-family: 'Orbitron', sans-serif;
@@ -348,6 +357,59 @@ body {
   height: 40px;
   margin: 0 5px;
 }
+.evento-card {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  background-color: #03020a;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+
+  width: 180px;
+  height: 320px; /* Altura fixa para alinhar */
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 10px;
+}
+
+
+
+.evento-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.evento-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.eventos-grid {
+  display: grid;
+  gap: 20px;
+  margin-bottom: 80px;
+  justify-items: start; /* Alinha os cards à esquerda */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  padding: 30px 0;
+}
+.evento-card .data {
+  text-align: center;
+  word-wrap: break-word;
+  padding: 0 5px;
+}
+
 
 #localizacao {
   background: #03020a;
