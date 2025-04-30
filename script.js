@@ -47,3 +47,28 @@ function abrirPopupGaleria() {
 function fecharPopupGaleria() {
   document.getElementById("popupG").style.display = "none";
 }
+window.onload = function () {
+  // Mantém o GIF por 2s
+  setTimeout(() => {
+    document.getElementById("splash").style.display = "none";
+
+    // Título aparece
+    document.querySelector(".titulo").classList.add("ativo");
+
+    // Após o título, aparece o botão
+    setTimeout(() => {
+      document.querySelector(".inscricao-btn").classList.add("ativo");
+    }, 900); // Tempo depois do titulo
+
+    // Após o título, aparece o botão *palestrantes
+    setTimeout(() => {
+      document.querySelector(".programacao-btn").classList.add("ativo");
+    }, 900); // Tempo depois do titulo
+
+    // Depois aparece a navbar
+    setTimeout(() => {
+      document.querySelector(".navbar").classList.add("ativo");
+    }, 1400); // Tempos depois do botão )
+  }, 400); // Tempo para começar as animações
+};
+
