@@ -32,7 +32,20 @@
 
     <section id="gdg_base" class="section-content">
         <h1 class="titulo">Google Developer Groups</h1>
-            <a href="#" class="inscricao-btn">INSCREVA-SE</a>
+        <button class="inscricao-btn" onclick="abrirPopup()">INSCREVA-SE</button>
+        <div class="popup-overlay" id="popup">
+            <div class="popup-content">
+              <h2>Garanta sua vaga</h2>
+              <img src="qrcode/QRCode.png" alt="QR Code">
+              <p>
+                Ou acesse pelo link:<br>
+                <a href="https://www.sympla.com.br/evento/gdg-londrina-meetup-maio-2025/2935627" target="_blank">
+                  https://www.sympla.com.br/evento/gdg-londrina-meetup-maio-2025/2935627
+                </a>
+              </p>
+              <button class="btn-cancelar" onclick="fecharPopup()">Cancelar</button>
+            </div>
+          </div>
     </section>
 
     <!-- SOBRE O GDG -->
@@ -133,28 +146,6 @@
           </div>
         </div>
       </footer>
-
-    <!-- POPUP INSCRIÇÃO -->
-    <div id="popup" class="popup hidden">
-        <div class="popup-content">
-            <button class="close-btn" onclick="closePopup()">&times;</button>
-            <h3>Inscreva-se no GDG Londrina</h3>
-            <p>Em breve mais informações sobre as inscrições.</p>
-        </div>
-    </div>
-
-    <!-- Popup de Inscrição -->
-<div id="popup-overlay" class="popup-overlay">
-    <div class="popup">
-      <span class="close-btn">&times;</span>
-      <h2>Inscreva-se</h2>
-      <form id="form-inscricao">
-        <input type="text" name="nome" placeholder="Seu nome" required>
-        <input type="email" name="email" placeholder="Seu e-mail" required>
-        <input type="text" name="cpf" placeholder="CPF" required>
-        <input type="date" name="dataNascimento" required>
-        <button type="submit">Enviar</button>
-      </form>
     </div>
   </div>
 
