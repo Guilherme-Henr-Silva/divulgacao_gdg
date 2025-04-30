@@ -24,3 +24,22 @@ function moveCarousel(step) {
   if (index > max) index = max;
   track.scrollTo({ left: width * index, behavior: 'smooth' });
 }
+// Adiciona funcionalidade de clique nas imagens do carrossel
+const imagensGaleria = document.querySelectorAll('.carousel-track img');
+const popupGImg = document.getElementById('popupGImg');
+
+imagensGaleria.forEach(img => {
+  img.addEventListener('click', () => {
+    popupGImg.src = img.src;
+    abrirPopupGaleria();
+  });
+});
+
+// Funções para abrir/fechar o popup com nome correto
+function abrirPopupGaleria() {
+  document.getElementById("popupG").style.display = "flex";
+}
+
+function fecharPopupGaleria() {
+  document.getElementById("popupG").style.display = "none";
+}
