@@ -32,7 +32,23 @@
 
     <section id="gdg_base" class="section-contentP">
         <h1 class="titulo">Palestrantes</h1>
-        <a href="#" class="programacao-btn">Programação</a>
+        <button class="programacao-btn" onclick="abrirPopup()">PROGRAMAÇÃO</button>
+        <div class="popup-overlay" id="popup">
+            <div class="popup-contentP">
+              <div class="programacao">
+              <h2><br>Programação:</br></h2>
+              <ul>
+              <p><li>9h - Coffee + Networking</li></p>
+              <p><li>9h30 - Abertura</li></p>
+              <p><li>9h45 - Palestra 1 - Backstage: organizando sua infraestrutura, com Danilo Soares Frois Cardoso</li></p>
+              <p><li>10h30 - Palestra 2 - GPUs: dos pixels à inteligência artificial, com Matheus Muriel</li></p>
+              <p><li>11h15 - Encerramento</li></p>
+              </ul>
+              </div>
+              <button class="btn-cancelar" onclick="fecharPopup()">Fechar</button>
+            </div>
+          </div>
+    </section>
     </section>
 
     <!-- SOBRE O GDG -->
