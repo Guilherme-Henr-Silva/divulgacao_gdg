@@ -36,8 +36,11 @@ imagensGaleria.forEach(img => {
 });
 
 // Funções para abrir/fechar o popup com nome correto
-function abrirPopupGaleria() {
-  document.getElementById("popupG").style.display = "flex";
+function abrirPopupGaleria(src) {
+  const popup = document.getElementById("popupG");
+  const img = document.getElementById("popupGImg");
+  img.src = src;
+  popup.style.display = "flex"; // Isso só funciona se não houver !important
 }
 
 function fecharPopupGaleria() {
