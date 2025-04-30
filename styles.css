@@ -29,6 +29,7 @@ button:hover {
     color: #000;
 }
 .inscricao-btn {
+  cursor: pointer;
   display: inline-block;
   font-size: 30px;
   color: #ffffff;
