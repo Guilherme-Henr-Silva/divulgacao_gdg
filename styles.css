@@ -726,4 +726,127 @@ body {
 .navbar.ativo {
   animation: fadeIn 1s ease forwards;
 }
+/* Estilos responsivos */
+@media (max-width: 1200px) {
+  .card {
+    margin-left: 10%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .inscricao-btn,
+  .programacao-btn {
+    margin-left: 5rem;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .navbar-title {
+    position: static;
+    transform: none;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .section-content,
+  .section-contentP,
+  .section-contentE {
+    margin: 40px 10px;
+    padding: 20px;
+    height: auto;
+  }
+
+  .inscricao-btn,
+  .programacao-btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-left: 0;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .titulo {
+    font-size: 2.2rem;
+  }
+
+  .titulo-secao {
+    font-size: 2rem;
+    padding: 30px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-track {
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 10px;
+  }
+
+  .carousel-track img {
+    width: 120px;
+    height: 180px;
+  }
+
+  .card {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .evento-card {
+    width: 100%;
+  }
+
+  .organizador-card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .popup-contentP {
+    width: 95%;
+  }
+}
+
+@media (max-width: 576px) {
+  .titulo {
+    font-size: 1.8rem;
+  }
+
+  .inscricao-btn,
+  .programacao-btn {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .carousel-btn {
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+
+  .map-placeholder iframe {
+    height: 200px;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
+}
 

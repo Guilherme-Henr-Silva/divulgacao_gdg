@@ -2,167 +2,158 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GDG Londrina</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-    <script defer src="script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GDG Londrina</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+  <script defer src="script.js"></script>
 </head>
 
 <body>
-    <!-- Splash de abertura -->
-<div id="splash" class="splash-screen"></div>
+  <div id="splash" class="splash-screen"></div>
 
-    <!-- NAVBAR -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="Imagens/gdg_icon.png" alt="Logo GDG" />
-            </div>
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="Imagens/gdg_icon.png" alt="Logo GDG" />
+      </div>
+      <div class="navbar-title">GDG - Londrina</div>
+      <ul class="navbar-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="palestrantes.html">Palestrantes</a></li>
+      </ul>
+    </nav>
+  </header>
 
-            <div class="navbar-title">GDG - Londrina</div>
-
-            <ul class="navbar-links">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="palestrantes.html">Palestrantes</a></li>
-            </ul>
-        </nav>
-
-    </header>
-
-    <section id="gdg_base" class="section-content">
-        <h1 class="titulo">Google Developer Groups</h1>
-        <button class="inscricao-btn" onclick="abrirPopup()">INSCREVA-SE</button>
-        <div class="popup-overlay" id="popup">
-            <div class="popup-content">
-              <h2>Garanta sua vaga</h2>
-              <img src="qrcode/QRCode.png" alt="QR Code">
-              <p>
-                Ou acesse pelo link:<br>
-                <a href="https://www.sympla.com.br/evento/gdg-londrina-meetup-maio-2025/2935627" target="_blank">
-                  https://www.sympla.com.br/evento/gdg-londrina-meetup-maio-2025/2935627
-                </a>
-              </p>
-              <button class="btn-cancelar" onclick="fecharPopup()">Cancelar</button>
-            </div>
-          </div>
-    </section>
-
-    <!-- SOBRE O GDG -->
-    <section id="sobre-gdg" class="section-content">
-        <h2 class="titulo-secao">O que é o GDG?</h2>
-        <p class="meu-paragrafo">O Google Developer Group (GDG) Londrina é uma comunidade local de desenvolvedores e entusiastas de
-            tecnologia na região de Londrina, Paraná, que se reúne para aprender, compartilhar conhecimento e
-            expandir sua rede de contatos.</p>
-        <p class="meu-paragrafo">O grupo promove encontros regulares que incluem palestras, sessões práticas e oportunidades de networking.
+  <section id="gdg_base" class="section-content">
+    <h1 class="titulo">Google Developer Groups</h1>
+    <button class="inscricao-btn" onclick="abrirPopup()">INSCREVA-SE</button>
+    <div class="popup-overlay" id="popup">
+      <div class="popup-content">
+        <h2>Garanta sua vaga</h2>
+        <img src="qrcode/QRCode.png" alt="QR Code" />
+        <p>
+          Ou acesse pelo link:<br />
+          <a href="https://www.sympla.com.br/evento/gdg-londrina-meetup-maio-2025/2935627" target="_blank">
+            https://www.sympla.com.br/evento/gdg-londrina-meetup-maio-2025/2935627
+          </a>
         </p>
-        <p class="meu-paragrafo">Para se manter atualizado sobre as atividades e eventos futuros do GDG Londrina, você pode acompanhar as
-            redes sociais do grupo.</p>
-    </section>
-
-    <!-- ORGANIZADORES -->
-    <section id="organizadores">
-        <h2 style="text-align: center;">Organizadores</h2>
-        <div class="organizadores-grid">
-            <div class="organizador-card">
-                <img src="organizadores/Hemerson Ravaneda.jpeg" alt="Organizador 1">
-                <h3>Hemerson Ravaneda</h3>
-                <p>Organizador</p>
-                <p>Director of Science and Technology, codel.</p>
-                <a href="https://www.linkedin.com/in/hravaneda/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/hemerson.ravaneda/" target="_blank"><i class="fab fa-instagram"></i></a>
-            </div>
-            <div class="organizador-card">
-                <img src="organizadores/Flavio Granero.jpeg" alt="Organizador 2">
-                <h3>Flávio Granero</h3>
-                <p>Organizador</p>
-                <p>VP of Engineering, Eventene.</p>
-                <a href="https://www.linkedin.com/in/flaviogranero/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/flaviogranero/" target="_blank"><i class="fab fa-instagram"></i></a>
-            </div>
-            <div class="organizador-card">
-                <img src="organizadores/Gustavo Cavalcante.jpeg" alt="Organizador 2">
-                <h3>Gustavo Borges</h3>
-                <p>Organizador</p>
-                <p>CEO & CTO, nevoa.co</p>
-                <a href="https://www.linkedin.com/in/gustavo-cavalcante-borges/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/guhs.borges/" target="_blank"><i class="fab fa-instagram"></i></a>
-            </div>
-            <div class="organizador-card">
-                <img src="organizadores/MarlonPascoal.jpeg" alt="Organizador 2">
-                <h3>Marlon Pascoal</h3>
-                <p>Organizador</p>
-                <p>Data Director, Superlógica.</p>
-                <a href="https://www.linkedin.com/in/marlonpascoal/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/marloncpascoal/" target="_blank"><i class="fab fa-instagram"></i></a>
-            </div>
-            <div class="organizador-card">
-                <img src="organizadores/ViniciusCarvalho.jpeg" alt="Organizador 2">
-                <h3>Vinicius Carvalho</h3>
-                <p>Organizador</p>
-                <p>Project Manager, Jobsity</p>
-                <a href="https://www.instagram.com/viniciuscarvalho.me/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.linkedin.com/in/viniciuscarvalho-me/" target="_blank"><i class="fab fa-instagram"></i></a>
-            </div>
-        </div>
-    </section>
-
-    <!-- GALERIA EM CARROSSEL -->
-    <section id="galeria">
-        <h2 style="text-align: center; color: white;">Galeria</h2>
-        <div class="carousel">
-            <button class="carousel-btn" onclick="moveCarousel(-1)">&#10094;</button>
-            <div class="carousel-track" id="carousel-track">
-                <img src="galeria/foto_01.jpg" alt="Imagem 1">
-                <img src="galeria/foto_02.jpg" alt="Imagem 2">
-                <img src="galeria/foto_03.jpg" alt="Imagem 3">
-                <img src="galeria/foto_04.jpg" alt="Imagem 4">
-                <img src="galeria/foto_05.jpg" alt="Imagem 5">
-                <img src="galeria/foto_06.png" alt="Imagem 6">
-                <img src="galeria/foto_07.png" alt="Imagem 7">
-                <img src="galeria/foto_08.png" alt="Imagem 8">
-                <img src="galeria/foto_09.png" alt="Imagem 9">
-                <img src="galeria/foto_10.png" alt="Imagem 10">
-                <img src="galeria/foto_11.png" alt="Imagem 11">
-            </div>
-            <button class="carousel-btn" onclick="moveCarousel(1)">&#10095;</button>
-        </div>
-    </section>
-    
-    <!-- LOCALIZAÇÃO -->
-    <section id="localizacao">
-        <h2>Localização</h2>
-        <p>O evento será realizado na UniCesumar Londrina.</p>
-        <div class="map-placeholder">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.3325707007234!2d-51.143334424677676!3d-23.303689378977797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb437a3d1d44af%3A0x9c9f46adfc62d1eb!2sUniCesumar%20-%20Londrina!5e0!3m2!1spt-BR!2sbr!4v1744656639669!5m2!1spt-BR!2sbr"
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </section>
-
-    <!-- RODAPÉ -->
-    <footer class="footer">
-        <div class="footer-content">
-          <p>&copy; 2025 GDG Londrina. Todos os direitos reservados.</p>
-          <div class="footer-icons">
-            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://linkedin.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://gdg.londrina.dev/" target="_blank"><i class="fas fa-globe"></i></a>
-          </div>
-        </div>
-      </footer>
+        <button class="btn-cancelar" onclick="fecharPopup()">Cancelar</button>
+      </div>
     </div>
-  </div>
+  </section>
+
+  <!-- SOBRE O GDG -->
+  <section id="sobre-gdg" class="section-content">
+    <h2 class="titulo-secao">O que é o GDG?</h2>
+    <p class="meu-paragrafo">O Google Developer Group (GDG) Londrina é uma comunidade local de desenvolvedores e entusiastas de tecnologia na região de Londrina, Paraná, que se reúne para aprender, compartilhar conhecimento e expandir sua rede de contatos.</p>
+    <p class="meu-paragrafo">O grupo promove encontros regulares que incluem palestras, sessões práticas e oportunidades de networking.</p>
+    <p class="meu-paragrafo">Para se manter atualizado sobre as atividades e eventos futuros do GDG Londrina, você pode acompanhar as redes sociais do grupo.</p>
+  </section>
+
+  <!-- ORGANIZADORES -->
+  <section id="organizadores">
+    <h2 style="text-align: center;">Organizadores</h2>
+    <div class="organizadores-grid">
+      <div class="organizador-card">
+        <img src="organizadores/Hemerson Ravaneda.jpeg" alt="Hemerson Ravaneda" />
+        <h3>Hemerson Ravaneda</h3>
+        <p>Organizador</p>
+        <p>Director of Science and Technology, codel.</p>
+        <a href="https://www.linkedin.com/in/hravaneda/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/hemerson.ravaneda/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+
+      <div class="organizador-card">
+        <img src="organizadores/Flavio Granero.jpeg" alt="Flávio Granero" />
+        <h3>Flávio Granero</h3>
+        <p>Organizador</p>
+        <p>VP of Engineering, Eventene.</p>
+        <a href="https://www.linkedin.com/in/flaviogranero/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/flaviogranero/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+
+      <div class="organizador-card">
+        <img src="organizadores/Gustavo Cavalcante.jpeg" alt="Gustavo Borges" />
+        <h3>Gustavo Borges</h3>
+        <p>Organizador</p>
+        <p>CEO & CTO, nevoa.co</p>
+        <a href="https://www.linkedin.com/in/gustavo-cavalcante-borges/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/guhs.borges/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+
+      <div class="organizador-card">
+        <img src="organizadores/MarlonPascoal.jpeg" alt="Marlon Pascoal" />
+        <h3>Marlon Pascoal</h3>
+        <p>Organizador</p>
+        <p>Data Director, Superlógica.</p>
+        <a href="https://www.linkedin.com/in/marlonpascoal/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/marloncpascoal/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+
+      <div class="organizador-card">
+        <img src="organizadores/ViniciusCarvalho.jpeg" alt="Vinicius Carvalho" />
+        <h3>Vinicius Carvalho</h3>
+        <p>Organizador</p>
+        <p>Project Manager, Jobsity</p>
+        <a href="https://www.linkedin.com/in/viniciuscarvalho-me/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/viniciuscarvalho.me/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section id="galeria">
+    <h2 style="text-align: center; color: white;">Galeria</h2>
+    <div class="carousel">
+      <button class="carousel-btn" onclick="moveCarousel(-1)">&#10094;</button>
+      <div class="carousel-track" id="carousel-track">
+        <!-- imagens do carrossel -->
+        <img src="galeria/foto_01.jpg" alt="Imagem 1" />
+        <img src="galeria/foto_02.jpg" alt="Imagem 2" />
+        <img src="galeria/foto_03.jpg" alt="Imagem 3" />
+        <img src="galeria/foto_04.jpg" alt="Imagem 4" />
+        <img src="galeria/foto_05.jpg" alt="Imagem 5" />
+        <img src="galeria/foto_06.png" alt="Imagem 6" />
+        <img src="galeria/foto_07.png" alt="Imagem 7" />
+        <img src="galeria/foto_08.png" alt="Imagem 8" />
+        <img src="galeria/foto_09.png" alt="Imagem 9" />
+        <img src="galeria/foto_10.png" alt="Imagem 10" />
+        <img src="galeria/foto_11.png" alt="Imagem 11" />
+      </div>
+      <button class="carousel-btn" onclick="moveCarousel(1)">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- LOCALIZAÇÃO -->
+  <section id="localizacao">
+    <h2>Localização</h2>
+    <p>O evento será realizado na UniCesumar Londrina.</p>
+    <div class="map-placeholder">
+      <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.3325707007234!2d-51.143334424677676!3d-23.303689378977797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb437a3d1d44af%3A0x9c9f46adfc62d1eb!2sUniCesumar%20-%20Londrina!5e0!3m2!1spt-BR!2sbr!4v1744656639669!5m2!1spt-BR!2sbr"
+      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 GDG Londrina. Todos os direitos reservados.</p>
+      <div class="footer-icons">
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://gdg.londrina.dev/" target="_blank"><i class="fas fa-globe"></i></a>
+      </div>
+    </div>
+  </footer>
 
   <div id="popupG" class="popupG">
-    <div class="popupG-content">
-      <button class="popupG-close" onclick="fecharPopupGaleria()">✕</button>
-      <img id="popupGImg" src="" alt="Imagem Ampliada">
-    </div>
-  </div>    
+    <span class="fechar" onclick="fecharPopupG()">X</span>
+    <p>Inscrição feita com sucesso!</p>
+  </div>
 </body>
-<script src="script.js"></script>
 
 </html>
