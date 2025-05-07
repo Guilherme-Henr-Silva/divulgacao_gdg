@@ -323,6 +323,20 @@ body {
   z-index: 999;
 }
 
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  color: #fff;
+  border: none;
+  font-size: 1.8rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1000;
+}
+
 .popupG-content {
   position: relative;
   display: inline-block;

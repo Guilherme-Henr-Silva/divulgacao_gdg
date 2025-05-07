@@ -106,27 +106,33 @@
   </section>
 
   <!-- GALERIA -->
-  <section id="galeria">
-    <h2 style="text-align: center; color: white;">Galeria</h2>
-    <div class="carousel">
-      <button class="carousel-btn" onclick="moveCarousel(-1)">&#10094;</button>
-      <div class="carousel-track" id="carousel-track">
-        <!-- imagens do carrossel -->
-        <img src="galeria/foto_01.jpg" alt="Imagem 1" />
-        <img src="galeria/foto_02.jpg" alt="Imagem 2" />
-        <img src="galeria/foto_03.jpg" alt="Imagem 3" />
-        <img src="galeria/foto_04.jpg" alt="Imagem 4" />
-        <img src="galeria/foto_05.jpg" alt="Imagem 5" />
-        <img src="galeria/foto_06.png" alt="Imagem 6" />
-        <img src="galeria/foto_07.png" alt="Imagem 7" />
-        <img src="galeria/foto_08.png" alt="Imagem 8" />
-        <img src="galeria/foto_09.png" alt="Imagem 9" />
-        <img src="galeria/foto_10.png" alt="Imagem 10" />
-        <img src="galeria/foto_11.png" alt="Imagem 11" />
-      </div>
-      <button class="carousel-btn" onclick="moveCarousel(1)">&#10095;</button>
+<section id="galeria">
+  <h2 style="text-align: center; color: white;">Galeria</h2>
+  <div class="carousel">
+    <button class="carousel-btn" onclick="moveCarousel(-1)">&#10094;</button>
+    <div class="carousel-track" id="carousel-track">
+      <!-- Imagens do carrossel -->
+      <img src="galeria/foto_01.jpg" alt="Imagem 1" onclick="abrirPopupGaleria(this.src)" />
+      <img src="galeria/foto_02.jpg" alt="Imagem 2" onclick="abrirPopupGaleria(this.src)" />
+      <img src="galeria/foto_03.jpg" alt="Imagem 3" onclick="abrirPopupGaleria(this.src)" />
+      <img src="galeria/foto_04.jpg" alt="Imagem 4" onclick="abrirPopupGaleria(this.src)" />
+      <img src="galeria/foto_05.jpg" alt="Imagem 5" onclick="abrirPopupGaleria(this.src)" />
+      <img src="galeria/foto_06.png" alt="Imagem 6" onclick="abrirPopupGaleria(this.src)" />
+      <img src="galeria/foto_07.png" alt="Imagem 7" onclick="abrirPopupGaleria(this.src)" />
+      <img src="galeria/foto_08.png" alt="Imagem 8" onclick="abrirPopupGaleria(this.src)" />
+      <img src="galeria/foto_09.png" alt="Imagem 9" onclick="abrirPopupGaleria(this.src)" />
+      <img src="galeria/foto_10.png" alt="Imagem 10" onclick="abrirPopupGaleria(this.src)" />
+      <img src="galeria/foto_11.png" alt="Imagem 11" onclick="abrirPopupGaleria(this.src)" />
     </div>
-  </section>
+    <button class="carousel-btn" onclick="moveCarousel(1)">&#10095;</button>
+  </div>
+</section>
+
+<!-- POPUP -->
+<div id="popupG" class="popup hidden" onclick="fecharPopupGaleria(event)">
+  <button class="close-btn" onclick="fecharPopupGaleria(event)">✕</button>
+  <img id="popupGImg" src="" alt="Imagem Grande" />
+</div>
 
   <!-- LOCALIZAÇÃO -->
   <section id="localizacao">
