@@ -155,7 +155,7 @@ body {
   margin: 100px auto;
   padding: 40px 20px;
   line-height: 1.8;
-  height: 150vh;
+  height: 200vh;
 }
 
 .section-contentE h1{
@@ -619,7 +619,7 @@ body {
   color: white;
   max-width: 1000px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  margin-left: 25%;
+  margin-left: 13%;
   margin-top: 1%;
   
 }
